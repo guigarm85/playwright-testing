@@ -1,4 +1,3 @@
-
 export class LoginPage {
 
   constructor(page) {
@@ -8,6 +7,7 @@ export class LoginPage {
     this.username_textbox = page.locator('[data-test="username"]');
     this.password_textbox = page.locator('[data-test="password"]');
     this.login_button = page.locator('[data-test="login-button"]');
+    this.errorMessage = page.locator('[data-test="error"]');
   }
 
   async enterUsername(username) {

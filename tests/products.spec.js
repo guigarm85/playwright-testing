@@ -1,9 +1,8 @@
-
 import { test } from '../fixtures/fixtures';
 import { expect } from '@playwright/test';
 import { ProductsPage } from '../pages/ProductsPage';
 
-// Use the custom fixture to log in before the cart test
+// Use the custom fixture to log in before the product test
 test.beforeEach(async ({ authenticatedPage }) => {
 });
 

@@ -1,4 +1,3 @@
-
 export class ProductsPage {
 
   constructor(page) {
